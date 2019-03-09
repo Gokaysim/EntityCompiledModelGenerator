@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityCompiledModeGenerator", "EntityCompiledModeGenerator\EntityCompiledModeGenerator.csproj", "{5367C5F6-1BA7-4199-81AF-512A576D03C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mottojoy.Infrastructure.Data", "..\..\Projects\mottojoy\mottojoy-api\Mottojoy.Infrastructure.Data\Mottojoy.Infrastructure.Data.csproj", "{E9497D47-268E-464D-80CE-225E05A54F75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mottojoy.Infrastructure.Entity", "..\..\Projects\mottojoy\mottojoy-api\Mottojoy.Infrastructure.Entity\Mottojoy.Infrastructure.Entity.csproj", "{B7A40C4C-A77C-4EFA-A35A-75EE581CFA01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5367C5F6-1BA7-4199-81AF-512A576D03C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5367C5F6-1BA7-4199-81AF-512A576D03C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5367C5F6-1BA7-4199-81AF-512A576D03C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5367C5F6-1BA7-4199-81AF-512A576D03C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9497D47-268E-464D-80CE-225E05A54F75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9497D47-268E-464D-80CE-225E05A54F75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9497D47-268E-464D-80CE-225E05A54F75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9497D47-268E-464D-80CE-225E05A54F75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7A40C4C-A77C-4EFA-A35A-75EE581CFA01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7A40C4C-A77C-4EFA-A35A-75EE581CFA01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7A40C4C-A77C-4EFA-A35A-75EE581CFA01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7A40C4C-A77C-4EFA-A35A-75EE581CFA01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

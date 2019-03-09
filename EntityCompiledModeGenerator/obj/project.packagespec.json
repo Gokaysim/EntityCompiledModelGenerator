@@ -1,0 +1,59 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/gokaysimsek/RiderProjects/EntityCompiledModeGenerator/EntityCompiledModeGenerator/EntityCompiledModeGenerator.csproj",
+    "projectName": "EntityCompiledModeGenerator",
+    "projectPath": "/Users/gokaysimsek/RiderProjects/EntityCompiledModeGenerator/EntityCompiledModeGenerator/EntityCompiledModeGenerator.csproj",
+    "outputPath": "/Users/gokaysimsek/RiderProjects/EntityCompiledModeGenerator/EntityCompiledModeGenerator/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {
+          "/Users/gokaysimsek/Projects/mottojoy/mottojoy-api/Mottojoy.Infrastructure.Data/Mottojoy.Infrastructure.Data.csproj": {
+            "projectPath": "/Users/gokaysimsek/Projects/mottojoy/mottojoy-api/Mottojoy.Infrastructure.Data/Mottojoy.Infrastructure.Data.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Microsoft.CodeAnalysis.CSharp": {
+          "target": "Package",
+          "version": "[2.0.0, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        },
+        "SmartFormat.NET": {
+          "target": "Package",
+          "version": "[2.4.2, )"
+        },
+        "System.Runtime.Loader": {
+          "target": "Package",
+          "version": "[4.3.0, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

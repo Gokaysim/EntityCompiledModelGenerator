@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/Rider2018.3/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.3/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_EntityCompiledModeGenerator.-654452128.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/Projects/mottojoy/mottojoy-api/Mottojoy.Infrastructure.Data" t="IncludeRecursive">
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="Helpers" t="Include">
+        <e p="QueryExtentions.cs" t="Include" />
+      </e>
+      <e p="IUnityOfWork.cs" t="Include" />
+      <e p="Migrations" t="Include">
+        <e p="20181121104738_Initial.cs" t="Include" />
+        <e p="20181121104738_Initial.Designer.cs" t="Include" />
+        <e p="20181121111358_Seed.cs" t="Include" />
+        <e p="20181121111358_Seed.Designer.cs" t="Include" />
+        <e p="20181122193958_ChangeOfName.cs" t="Include" />
+        <e p="20181122193958_ChangeOfName.Designer.cs" t="Include" />
+        <e p="20181214215912_TourAddress.cs" t="Include" />
+        <e p="20181214215912_TourAddress.Designer.cs" t="Include" />
+        <e p="20181217222001_TourAddressesTableCorrection.cs" t="Include" />
+        <e p="20181217222001_TourAddressesTableCorrection.Designer.cs" t="Include" />
+        <e p="20190219211335_MottoWorkerPayment.cs" t="Include" />
+        <e p="20190219211335_MottoWorkerPayment.Designer.cs" t="Include" />
+        <e p="20190219211347_MottoWorkerPayment_Seed.cs" t="Include" />
+        <e p="20190219211347_MottoWorkerPayment_Seed.Designer.cs" t="Include" />
+        <e p="MottojoyContextModelSnapshot.cs" t="Include" />
+      </e>
+      <e p="Mottojoy.Infrastructure.Data.csproj" t="IncludeRecursive" />
+      <e p="MottojoyContext.cs" t="Include" />
+      <e p="MottojoyContextFactory.cs" t="Include" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp2.1" t="Include">
+            <e p="Mottojoy.Infrastructure.Data.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Repos" t="Include">
+        <e p="AdminRepos" t="Include">
+          <e p="AdminRepo.cs" t="Include" />
+          <e p="IAdminRepo.cs" t="Include" />
+        </e>
+        <e p="BaseRepo.cs" t="Include" />
+        <e p="ClientRepos" t="Include">
+          <e p="ClientPhotoRepo.cs" t="Include" />
+          <e p="ClientRepo.cs" t="Include" />
+          <e p="IClientPhotoRepo.cs" t="Include" />
+          <e p="IClientRepo.cs" t="Include" />
+        </e>
+        <e p="CommonRepos" t="Include">
+          <e p="CityRepo.cs" t="Include" />
+          <e p="CountryDetailRepo.cs" t="Include" />
+          <e p="CountryRepo.cs" t="Include" />
+          <e p="ICityRepo.cs" t="Include" />
+          <e p="ICountryDetailRepo.cs" t="Include" />
+          <e p="ICountryRepo.cs" t="Include" />
+        </e>
+        <e p="EvaluationRepos" t="Include">
+          <e p="CommentRepo.cs" t="Include" />
+          <e p="ICommentRepo.cs" t="Include" />
+          <e p="IRateRepo.cs" t="Include" />
+          <e p="RateRepo.cs" t="Include" />
+        </e>
+        <e p="FinancialRepos" t="Include">
+          <e p="CompanyRepo.cs" t="Include" />
+          <e p="EarningRepo.cs" t="Include" />
+          <e p="ICompanyRepo.cs" t="Include" />
+          <e p="IEarningRepo.cs" t="Include" />
+          <e p="IPaymentRepo.cs" t="Include" />
+          <e p="IPayTrPaymentRepo.cs" t="Include" />
+          <e p="PaymentRepo.cs" t="Include" />
+          <e p="PayTrPaymentRepo.cs" t="Include" />
+        </e>
+        <e p="MottoWorkRepos" t="Include">
+          <e p="IMottoWorkerRepo.cs" t="Include" />
+          <e p="MottoWorkerRepo.cs" t="Include" />
+        </e>
+        <e p="PartnerRepos" t="Include">
+          <e p="IPartnerAccountRepo.cs" t="Include" />
+          <e p="IPartnerAddressRepo.cs" t="Include" />
+          <e p="IPartnerPhoneRepo.cs" t="Include" />
+          <e p="IPartnerRepo.cs" t="Include" />
+          <e p="PartnerAccountRepo.cs" t="Include" />
+          <e p="PartnerAddressRepo.cs" t="Include" />
+          <e p="PartnerPhoneRepo.cs" t="Include" />
+          <e p="PartnerRepo.cs" t="Include" />
+        </e>
+        <e p="ReservationRepos" t="Include">
+          <e p="IReservationRepo.cs" t="Include" />
+          <e p="ITourExtraReservationRepo.cs" t="Include" />
+          <e p="ITourReservationRepo.cs" t="Include" />
+          <e p="ReservationRepo.cs" t="Include" />
+          <e p="TourExtraReservationRepo.cs" t="Include" />
+          <e p="TourReservationRepo.cs" t="Include" />
+        </e>
+        <e p="ServiceRepos" t="Include">
+          <e p="IServiceRepo.cs" t="Include" />
+          <e p="ServiceRepo.cs" t="Include" />
+        </e>
+        <e p="TourRepos" t="Include">
+          <e p="ISubcategoryTourMatchRepo.cs" t="Include" />
+          <e p="ITourCategoryDetailRepo.cs" t="Include" />
+          <e p="ITourCategoryRepo.cs" t="Include" />
+          <e p="ITourDetailRepo.cs" t="Include" />
+          <e p="ITourExtraDetailRepo.cs" t="Include" />
+          <e p="ITourExtraRepo.cs" t="Include" />
+          <e p="ITourImageRepo.cs" t="Include" />
+          <e p="ITourRepo.cs" t="Include" />
+          <e p="ITourSubcategoryDetailRepo.cs" t="Include" />
+          <e p="ITourSubcategoryRepo.cs" t="Include" />
+          <e p="SubcategoryTourMatchRepo.cs" t="Include" />
+          <e p="TourCategoryDetailRepo.cs" t="Include" />
+          <e p="TourCategoryRepo.cs" t="Include" />
+          <e p="TourDetailRepo.cs" t="Include" />
+          <e p="TourExtraDetailRepo.cs" t="Include" />
+          <e p="TourExtraRepo.cs" t="Include" />
+          <e p="TourImageRepo.cs" t="Include" />
+          <e p="TourRepo.cs" t="Include" />
+          <e p="TourSubcategoryDetailRepo.cs" t="Include" />
+          <e p="TourSubcategoryRepo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="SeedMethods.cs" t="Include" />
+      <e p="UnityOfWork.cs" t="Include" />
+    </e>
+    <e p="$USER_HOME$/Projects/mottojoy/mottojoy-api/Mottojoy.Infrastructure.Entity" t="IncludeRecursive">
+      <e p="AdminDBO" t="Include">
+        <e p="Admin.cs" t="Include" />
+      </e>
+      <e p="BaseEntity.cs" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="ClientDBO" t="Include">
+        <e p="Client.cs" t="Include" />
+        <e p="ClientPhoto.cs" t="Include" />
+      </e>
+      <e p="CommonDBO" t="Include">
+        <e p="City.cs" t="Include" />
+        <e p="Country.cs" t="Include" />
+        <e p="CountryDetail.cs" t="Include" />
+      </e>
+      <e p="EvaluationDBO" t="Include">
+        <e p="Comment.cs" t="Include" />
+        <e p="Rate.cs" t="Include" />
+      </e>
+      <e p="FinancialDBO" t="Include">
+        <e p="Company.cs" t="Include" />
+        <e p="Company.json" t="Include" />
+        <e p="Earning.cs" t="Include" />
+        <e p="Payment.cs" t="Include" />
+        <e p="PayTrPayment.cs" t="Include" />
+        <e p="PayTrTransfer.cs" t="Include" />
+      </e>
+      <e p="IdentityDBO" t="Include">
+        <e p="AppRole.cs" t="Include" />
+        <e p="AppUser.cs" t="Include" />
+      </e>
+      <e p="Mottojoy.Infrastructure.Entity.csproj" t="IncludeRecursive" />
+      <e p="MottoWorkDBO" t="Include">
+        <e p="MottoWorker.cs" t="Include" />
+        <e p="OneTimeUseCode.cs" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netstandard2.0" t="Include">
+            <e p="Mottojoy.Infrastructure.Entity.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="PartnerDBO" t="Include">
+        <e p="Partner.cs" t="Include" />
+        <e p="PartnerAccount.cs" t="Include" />
+        <e p="PartnerAddress.cs" t="Include" />
+        <e p="PartnerPhone.cs" t="Include" />
+      </e>
+      <e p="ReservationDBO" t="Include">
+        <e p="Reservation.cs" t="Include" />
+        <e p="TourExtraReservation.cs" t="Include" />
+        <e p="TourReservation.cs" t="Include" />
+      </e>
+      <e p="ServiceDBO" t="Include">
+        <e p="PopularService.cs" t="Include" />
+        <e p="Service.cs" t="Include" />
+      </e>
+      <e p="TourDBO" t="Include">
+        <e p="SubcategoryTourMatch.cs" t="Include" />
+        <e p="Tour.cs" t="Include" />
+        <e p="TourAddress.cs" t="Include" />
+        <e p="TourCategory.cs" t="Include" />
+        <e p="TourCategoryDetail.cs" t="Include" />
+        <e p="TourDetail.cs" t="Include" />
+        <e p="TourExtra.cs" t="Include" />
+        <e p="TourExtraDetail.cs" t="Include" />
+        <e p="TourImage.cs" t="Include" />
+        <e p="TourSubcategory.cs" t="Include" />
+        <e p="TourSubcategoryDetail.cs" t="Include" />
+      </e>
+    </e>
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="EntityCompiledModeGenerator" t="IncludeRecursive">
+        <e p="AdminEntityType" t="Include" />
+        <e p="AdminEntityType.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="CodeTemplates" t="Include">
+          <e p="EntityTemplate.txt" t="Include" />
+          <e p="PropertyTemplate.txt" t="Include" />
+        </e>
+        <e p="CompiledTypeBase.cs" t="Include" />
+        <e p="EntityCompiledModeGenerator.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="EntityCompiledModeGenerator.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="ProperytyT.cs" t="Include" />
+      </e>
+      <e p="EntityCompiledModeGenerator.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
