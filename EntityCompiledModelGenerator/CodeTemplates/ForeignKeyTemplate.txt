@@ -1,0 +1,62 @@
+using System.Collections.Generic;
+using System.Linq;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Metadata;
+{:foreignkeynamespacelist:};
+
+namespace {Namespace}.{EntityClassName}Classes
+{{
+    public class {ClassName}:IForeignKey
+    {{
+        private static {ClassName} _instance;
+        
+        public static {ClassName} GetInstance()
+        {{
+            if(_instance==null)
+            {{
+                _instance = new {ClassName}();
+            }}
+            return _instance;
+        }}
+        private IEnumerable<IAnnotation> annotations;
+        
+
+        public IAnnotation FindAnnotation(string name)
+        {{
+            return GetAnnotations().FirstOrDefault(p => p.Name == name );
+        }}
+
+        public IEnumerable<IAnnotation> GetAnnotations()
+        {{
+            if(annotations==null)
+            {{
+                annotations ={Annotations:annotationlist:\t\t\t\t};
+            }}
+            return annotations;
+        }}
+
+        public object this[string name] => FindAnnotation(name);
+
+        public IEntityType DeclaringEntityType => {DeclaringEntityType};
+        private IReadOnlyList<IProperty> properties;
+        public IReadOnlyList<IProperty> Properties {{ 
+            get
+            {{
+                if(properties==null)
+                {{
+                    properties = {Properties:propertylist:\t\t\t\t\t};
+                }}
+                return properties;
+            }} 
+        }}
+        public IEntityType PrincipalEntityType => {PrincipalEntityType};
+        public IKey PrincipalKey => {PrincipalKey};
+        public INavigation DependentToPrincipal => {DependentToPrincipal};
+        public INavigation PrincipalToDependent => {PrincipalToDependent};
+        public bool IsUnique =>{IsUnique};
+        public bool IsRequired =>{IsRequired};
+        public bool IsOwnership =>{IsOwnership};
+        public DeleteBehavior DeleteBehavior => DeleteBehavior.{DeleteBehavior};
+    }}
+}}

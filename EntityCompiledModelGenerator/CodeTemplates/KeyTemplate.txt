@@ -1,0 +1,53 @@
+using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using System.Linq;
+
+namespace {Namespace}.{EntityClassName}Classes
+{{
+    public class {ClassName}:IKey
+    {{    
+        private static {ClassName} _instance;            
+        public static {ClassName} GetInstance()
+        {{
+            if(_instance==null)
+            {{
+                _instance = new {ClassName}();
+            }}
+            return _instance;
+        }}
+        
+        private IEnumerable<IAnnotation> _annotations;
+
+        public IAnnotation FindAnnotation(string name)
+        {{
+            return GetAnnotations().FirstOrDefault(p=>p.Name==name);
+        }}
+
+        public IEnumerable<IAnnotation> GetAnnotations()
+        {{
+            if(_annotations==null)
+            {{
+                _annotations = {Annotations:annotationlist:\t\t\t\t};    
+            }}
+            return _annotations;
+        }}
+
+        public object this[string name] => FindAnnotation(name);
+
+        private IReadOnlyList<IProperty> properties;
+        public IReadOnlyList<IProperty> Properties 
+        {{ 
+            get
+            {{
+                if(properties==null)
+                {{
+                    properties = {Properties:propertylist:\t\t\t\t\t};
+                }};
+                return properties;
+            }}
+        }}
+        public IEntityType DeclaringEntityType => {DeclaringEntityType}.GetInstance();
+    }}
+}}

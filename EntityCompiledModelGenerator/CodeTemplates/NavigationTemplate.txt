@@ -1,0 +1,77 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Reflection;
+using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Metadata;
+{:navigationnamespacelist:};
+
+namespace {Namespace}.{EntityClassName}Classes
+{{
+    public class {ClassName}:INavigation
+    {{
+        private static {ClassName} _instance;
+        
+        public static {ClassName} GetInstance()
+        {{
+            if(_instance==null)
+            {{
+                _instance = new {ClassName}();
+            }}
+            return _instance;
+        }}
+        private IEnumerable<IAnnotation> annotations;
+
+        public IAnnotation FindAnnotation(string name)
+        {{
+            return annotations.FirstOrDefault(p => p.Name == name);
+        }}
+
+        public IEnumerable<IAnnotation> GetAnnotations()
+        {{
+            return annotations;
+        }}
+
+        public object this[string name] => FindAnnotation(name);
+
+        public string Name => "{Name}";
+        public ITypeBase DeclaringType => {DeclaringType};
+        private Type clrType;
+        public Type ClrType {{ 
+            get
+            {{
+                if(clrType==null)
+                {{
+                    clrType = Type.GetType("{ClrType}");
+                }}
+                return clrType;
+            }} 
+        }}
+        private PropertyInfo propertyInfo;
+        public PropertyInfo PropertyInfo {{ 
+            get
+            {{
+                if(propertyInfo==null)
+                {{
+                    propertyInfo = ClrType.GetProperty("{PropertyInfo}");
+                }}
+                return propertyInfo;
+            }} 
+        }}
+        private FieldInfo fieldInfo;
+        public FieldInfo FieldInfo {{ 
+            get
+            {{
+                if(fieldInfo==null)
+                {{
+                    fieldInfo = ClrType.GetField("{FieldInfo}");
+                }}
+                return fieldInfo;
+            }}
+        }}
+        public bool IsShadowProperty => {IsShadowProperty};
+        public IEntityType DeclaringEntityType =>{DeclaringEntityType};
+        public IForeignKey ForeignKey => {ForeignKey};
+        public bool IsEagerLoaded =>{IsEagerLoaded};
+    }}
+}}

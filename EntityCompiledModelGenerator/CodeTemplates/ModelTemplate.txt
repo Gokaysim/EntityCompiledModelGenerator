@@ -1,0 +1,65 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Reflection;
+using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Metadata;
+{:modelnamespacelist:}
+
+namespace {Namespace}
+{{
+    public class CompiledModel:IModel
+    {{
+        private static CompiledModel _instance;
+                
+        public static CompiledModel GetInstance()
+        {{
+            if(_instance==null)
+            {{
+                _instance = new CompiledModel();
+            }}
+            return _instance;
+        }}
+        
+        private IEnumerable<IAnnotation> _annotations; 
+        public IAnnotation FindAnnotation(string name)
+        {{
+            return GetAnnotations().FirstOrDefault(p => p.Name == name);
+        }}
+
+        public IEnumerable<IAnnotation> GetAnnotations()
+        {{
+            if (_annotations == null)
+            {{
+                _annotations = new List<IAnnotation>();
+            }}
+
+            return _annotations;
+        }}
+
+        public object this[string name] => FindAnnotation(name);
+
+        private IEnumerable<IEntityType> _entityTypes;
+        public IEnumerable<IEntityType> GetEntityTypes()
+        {{
+            if (_entityTypes == null)
+            {{
+                _entityTypes = {EntityTypes:entitytypelist:\t\t\t\t};
+            }}
+
+            return _entityTypes;
+        }}
+
+        public IEntityType FindEntityType(string name)
+        {{
+            return GetEntityTypes().FirstOrDefault(p => p.Name == name);
+        }}
+
+        public IEntityType FindEntityType(string name, string definingNavigationName, IEntityType definingEntityType)
+        {{
+            return GetEntityTypes().FirstOrDefault(p => p.Name == name
+                                                        && p.DefiningNavigationName == definingNavigationName
+                                                        && p.DefiningEntityType == definingEntityType);
+        }}
+    }}
+}}

@@ -1,0 +1,49 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Reflection;
+using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Query.Internal;
+
+namespace EntityCompiledModel.Types.Simples
+{
+    public class SimpleServiceProperty:IServiceProperty
+    {
+        private readonly string _name;
+        private readonly ITypeBase _typeBase;
+        private readonly Type _clrType;
+        private readonly FieldInfo _fieldInfo;
+        private readonly bool _isShadowProperty;
+        private readonly IEntityType _declaringEntityType;
+        private readonly PropertyInfo _propertyInfo;
+        
+        
+        private IEnumerable<IAnnotation> annotations;
+
+        
+        public IAnnotation FindAnnotation(string name)
+        {
+            return annotations.FirstOrDefault(p => p.Name == name);
+        }
+
+        public IEnumerable<IAnnotation> GetAnnotations()
+        {
+            if (annotations == null)
+            {
+                
+            }
+            return annotations;
+        }
+
+        public object this[string name] => FindAnnotation(name);
+
+        public string Name => _name;
+        public ITypeBase DeclaringType => _declaringEntityType;
+        public Type ClrType => _clrType;
+        public PropertyInfo PropertyInfo => _propertyInfo;
+        public FieldInfo FieldInfo => _fieldInfo;
+        public bool IsShadowProperty => _isShadowProperty;
+        public IEntityType DeclaringEntityType => _declaringEntityType;
+    }
+}

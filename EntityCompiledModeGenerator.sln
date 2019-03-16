@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityCompiledModeGenerator", "EntityCompiledModeGenerator\EntityCompiledModeGenerator.csproj", "{5367C5F6-1BA7-4199-81AF-512A576D03C4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityCompiledModelGenerator", "EntityCompiledModelGenerator\EntityCompiledModelGenerator.csproj", "{5367C5F6-1BA7-4199-81AF-512A576D03C4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mottojoy.Infrastructure.Data", "..\..\Projects\mottojoy\mottojoy-api\Mottojoy.Infrastructure.Data\Mottojoy.Infrastructure.Data.csproj", "{E9497D47-268E-464D-80CE-225E05A54F75}"
 EndProject

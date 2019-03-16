@@ -1,0 +1,12 @@
+/Users/gokaysimsek/RiderProjects/EntityCompiledModeGenerator/EntityComiledModel.Types/bin/Debug/netstandard2.0/EntityComiledModel.Types.deps.json
+/Users/gokaysimsek/RiderProjects/EntityCompiledModeGenerator/EntityComiledModel.Types/bin/Debug/netstandard2.0/EntityComiledModel.Types.dll
+/Users/gokaysimsek/RiderProjects/EntityCompiledModeGenerator/EntityComiledModel.Types/bin/Debug/netstandard2.0/EntityComiledModel.Types.pdb
+/Users/gokaysimsek/RiderProjects/EntityCompiledModeGenerator/EntityComiledModel.Types/bin/Debug/netstandard2.0/Microsoft.EntityFrameworkCore.dll
+/Users/gokaysimsek/RiderProjects/EntityCompiledModeGenerator/EntityComiledModel.Types/bin/Debug/netstandard2.0/Microsoft.EntityFrameworkCore.xml
+/Users/gokaysimsek/RiderProjects/EntityCompiledModeGenerator/EntityComiledModel.Types/obj/Debug/netstandard2.0/EntityComiledModel.Types.csprojAssemblyReference.cache
+/Users/gokaysimsek/RiderProjects/EntityCompiledModeGenerator/EntityComiledModel.Types/obj/Debug/netstandard2.0/EntityComiledModel.Types.csproj.CoreCompileInputs.cache
+/Users/gokaysimsek/RiderProjects/EntityCompiledModeGenerator/EntityComiledModel.Types/obj/Debug/netstandard2.0/EntityComiledModel.Types.AssemblyInfoInputs.cache
+/Users/gokaysimsek/RiderProjects/EntityCompiledModeGenerator/EntityComiledModel.Types/obj/Debug/netstandard2.0/EntityComiledModel.Types.AssemblyInfo.cs
+/Users/gokaysimsek/RiderProjects/EntityCompiledModeGenerator/EntityComiledModel.Types/obj/Debug/netstandard2.0/EntityComiledModel.Types.csproj.CopyComplete
+/Users/gokaysimsek/RiderProjects/EntityCompiledModeGenerator/EntityComiledModel.Types/obj/Debug/netstandard2.0/EntityComiledModel.Types.dll
+/Users/gokaysimsek/RiderProjects/EntityCompiledModeGenerator/EntityComiledModel.Types/obj/Debug/netstandard2.0/EntityComiledModel.Types.pdb
