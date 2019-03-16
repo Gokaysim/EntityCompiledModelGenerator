@@ -10,11 +10,8 @@ using EntityCompiledModelGenerator.SmartFormatHelpers;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
-using Mottojoy.Infrastructure.Data;
-using Mottojoy.Infrastructure.Data.Repos.MottoWorkRepos;
-using Mottojoy.Infrastructure.Entity.AdminDBO;
+using SampleContext;
 using SmartFormat;
-using test;
 using ModelExtensions = Microsoft.EntityFrameworkCore.ModelExtensions;
 
 
@@ -26,18 +23,18 @@ namespace EntityCompiledModelGenerator
         {
            
 //            Test();
-//            Create();
-            CheckDb();
+            Create();
+//            CheckDb();
         }
 
         static void CheckDb()
         {
-            var contextFactory = new MottojoyContextFactory(CompiledModel.GetInstance());
+//            var contextFactory = new MottojoyContextFactory(CompiledModel.GetInstance());
 
-            using (var context = contextFactory.CreateDbContext(null))
-            {
-                var admin = context.Set<Admin>().First();
-            }
+//            using (var context = contextFactory.CreateDbContext(null))
+//            {
+//                var admin = context.Set<Admin>().First();
+//            }
         }
         static void Test()
         {
@@ -52,7 +49,7 @@ namespace EntityCompiledModelGenerator
 
         static void Create()
         {
-            var factory = new MottojoyContextFactory();            
+            var factory = new SampleContextFactory();            
             Smart.Default.AddExtensions(
                 new AnnotationListFormatter(),
                 new ServicePropertiesFormatter(),

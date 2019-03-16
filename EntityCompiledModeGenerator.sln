@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mottojoy.Infrastructure.Dat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mottojoy.Infrastructure.Entity", "..\..\Projects\mottojoy\mottojoy-api\Mottojoy.Infrastructure.Entity\Mottojoy.Infrastructure.Entity.csproj", "{B7A40C4C-A77C-4EFA-A35A-75EE581CFA01}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleContext", "SampleContext\SampleContext.csproj", "{999D8E64-4278-4AE7-9207-D1CE39C4F119}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{B7A40C4C-A77C-4EFA-A35A-75EE581CFA01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7A40C4C-A77C-4EFA-A35A-75EE581CFA01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7A40C4C-A77C-4EFA-A35A-75EE581CFA01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{999D8E64-4278-4AE7-9207-D1CE39C4F119}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{999D8E64-4278-4AE7-9207-D1CE39C4F119}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{999D8E64-4278-4AE7-9207-D1CE39C4F119}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{999D8E64-4278-4AE7-9207-D1CE39C4F119}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

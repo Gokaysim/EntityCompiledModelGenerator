@@ -15,8 +15,8 @@
     "frameworks": {
       "netcoreapp2.2": {
         "projectReferences": {
-          "/Users/gokaysimsek/Projects/mottojoy/mottojoy-api/Mottojoy.Infrastructure.Data/Mottojoy.Infrastructure.Data.csproj": {
-            "projectPath": "/Users/gokaysimsek/Projects/mottojoy/mottojoy-api/Mottojoy.Infrastructure.Data/Mottojoy.Infrastructure.Data.csproj"
+          "/Users/gokaysimsek/RiderProjects/EntityCompiledModeGenerator/SampleContext/SampleContext.csproj": {
+            "projectPath": "/Users/gokaysimsek/RiderProjects/EntityCompiledModeGenerator/SampleContext/SampleContext.csproj"
           }
         }
       }

@@ -1,0 +1,9 @@
+/Users/gokaysimsek/RiderProjects/EntityCompiledModeGenerator/SampleContext/bin/Debug/netstandard2.0/SampleContext.deps.json
+/Users/gokaysimsek/RiderProjects/EntityCompiledModeGenerator/SampleContext/bin/Debug/netstandard2.0/SampleContext.dll
+/Users/gokaysimsek/RiderProjects/EntityCompiledModeGenerator/SampleContext/bin/Debug/netstandard2.0/SampleContext.pdb
+/Users/gokaysimsek/RiderProjects/EntityCompiledModeGenerator/SampleContext/obj/Debug/netstandard2.0/SampleContext.csprojAssemblyReference.cache
+/Users/gokaysimsek/RiderProjects/EntityCompiledModeGenerator/SampleContext/obj/Debug/netstandard2.0/SampleContext.csproj.CoreCompileInputs.cache
+/Users/gokaysimsek/RiderProjects/EntityCompiledModeGenerator/SampleContext/obj/Debug/netstandard2.0/SampleContext.AssemblyInfoInputs.cache
+/Users/gokaysimsek/RiderProjects/EntityCompiledModeGenerator/SampleContext/obj/Debug/netstandard2.0/SampleContext.AssemblyInfo.cs
+/Users/gokaysimsek/RiderProjects/EntityCompiledModeGenerator/SampleContext/obj/Debug/netstandard2.0/SampleContext.dll
+/Users/gokaysimsek/RiderProjects/EntityCompiledModeGenerator/SampleContext/obj/Debug/netstandard2.0/SampleContext.pdb

@@ -6,7 +6,6 @@ using System.Text;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
-using Mottojoy.Infrastructure.Data;
 using SmartFormat.Core.Extensions;
 
 namespace EntityCompiledModelGenerator.SmartFormatHelpers

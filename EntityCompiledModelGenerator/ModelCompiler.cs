@@ -10,7 +10,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Metadata.Conventions.Internal;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
-using Mottojoy.Infrastructure.Entity.AdminDBO;
 using SmartFormat;
 
 namespace EntityCompiledModelGenerator
