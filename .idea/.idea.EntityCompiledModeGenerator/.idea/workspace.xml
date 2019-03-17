@@ -2,776 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e44dac50-7429-43a4-a77a-3ffa0068c7e1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SampleContext/Entities/Actor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SampleContext/Entities/Casting.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SampleContext/Entities/Movie.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SampleContext/SampleContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SampleContext/SampleContextFactory.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.EntityCompiledModeGenerator/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EntityCompiledModeGenerator/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EntityCompiledModeGenerator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EntityCompiledModeGenerator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityComiledModel.Types/EntityComiledModel.Types.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityComiledModel.Types/Simples/Class1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityComiledModel.Types/Simples/SimpleForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityComiledModel.Types/Simples/SimpleIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityComiledModel.Types/Simples/SimpleKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityComiledModel.Types/Simples/SimpleNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityComiledModel.Types/Simples/SimpleServiceProperty.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityComiledModel.Types/Simples/SimpleTypeBase.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityComiledModel.Types/bin/Debug/netstandard2.0/EntityComiledModel.Types.deps.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityComiledModel.Types/bin/Debug/netstandard2.0/EntityComiledModel.Types.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityComiledModel.Types/bin/Debug/netstandard2.0/EntityComiledModel.Types.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityComiledModel.Types/bin/Debug/netstandard2.0/Microsoft.EntityFrameworkCore.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityComiledModel.Types/bin/Debug/netstandard2.0/Microsoft.EntityFrameworkCore.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityComiledModel.Types/obj/Debug/netstandard2.0/EntityComiledModel.Types.AssemblyInfo.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityComiledModel.Types/obj/Debug/netstandard2.0/EntityComiledModel.Types.AssemblyInfoInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityComiledModel.Types/obj/Debug/netstandard2.0/EntityComiledModel.Types.assets.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityComiledModel.Types/obj/Debug/netstandard2.0/EntityComiledModel.Types.csproj.CopyComplete" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityComiledModel.Types/obj/Debug/netstandard2.0/EntityComiledModel.Types.csproj.CoreCompileInputs.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityComiledModel.Types/obj/Debug/netstandard2.0/EntityComiledModel.Types.csproj.FileListAbsolute.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityComiledModel.Types/obj/Debug/netstandard2.0/EntityComiledModel.Types.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityComiledModel.Types/obj/Debug/netstandard2.0/EntityComiledModel.Types.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityComiledModel.Types/obj/Debug/netstandard2.0/EntityComiledModel.Types.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityComiledModel.Types/obj/EntityComiledModel.Types.csproj.nuget.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityComiledModel.Types/obj/EntityComiledModel.Types.csproj.nuget.g.props" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityComiledModel.Types/obj/EntityComiledModel.Types.csproj.nuget.g.targets" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityComiledModel.Types/obj/project.assets.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityComiledModel.Types/obj/project.packagespec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModeGenerator.sln" beforeDir="false" afterPath="$PROJECT_DIR$/EntityCompiledModeGenerator.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/EntityCompiledModelGenerator.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/EntityCompiledModelGenerator/EntityCompiledModelGenerator.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Admin/AdminAdminIdKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Admin/AdminEntityType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Admin/AdminIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Admin/AppUserNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Admin/ApprovedMottoWorkersNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Admin/CreateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Admin/DeletedIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Admin/DeletedPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Admin/UpdateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppRole/AppRoleEntityType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppRole/AppRoleIdKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppRole/ConcurrencyStampPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppRole/IdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppRole/NamePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppRole/NormalizedNameIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppRole/NormalizedNamePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppUser/AccessFailedCountPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppUser/AdminIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppUser/AdminIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppUser/AdminNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppUser/AppUserAdminIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppUser/AppUserClientIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppUser/AppUserEntityType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppUser/AppUserIdKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppUser/AppUserMottoWorkerIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppUser/AppUserPartnerIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppUser/ClientIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppUser/ClientIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppUser/ClientNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppUser/ConcurrencyStampPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppUser/EmailConfirmedPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppUser/EmailPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppUser/FacebookIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppUser/FirstNamePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppUser/GoogleIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppUser/IdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppUser/LastNamePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppUser/LockoutEnabledPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppUser/LockoutEndPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppUser/MottoWorkerIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppUser/MottoWorkerIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppUser/MottoWorkerNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppUser/NormalizedEmailIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppUser/NormalizedEmailPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppUser/NormalizedUserNameIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppUser/NormalizedUserNamePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppUser/PartnerIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppUser/PartnerIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppUser/PartnerNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppUser/PasswordHashPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppUser/PhoneNumberConfirmedPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppUser/PhoneNumberPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppUser/SecurityStampPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppUser/TwoFactorEnabledPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppUser/UserNamePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/AppUser/UserTypePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/City/CityCityIdKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/City/CityCountryIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/City/CityEntityType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/City/CityIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/City/CountryIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/City/CountryIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/City/CountryNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/City/CreateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/City/DeletedIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/City/DeletedPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/City/NameIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/City/NamePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/City/PhoneCodePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/City/PlateNumberIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/City/PlateNumberPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/City/UpdateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Client/AppUserNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Client/ClientClientIdKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Client/ClientClientPhotoIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Client/ClientEntityType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Client/ClientIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Client/ClientInviterIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Client/ClientPhotoIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Client/ClientPhotoIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Client/ClientPhotoNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Client/CreateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Client/CultureIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Client/CulturePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Client/CurrencyIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Client/CurrencyPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Client/DeletedIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Client/DeletedPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Client/EmailPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Client/FirstNamePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Client/InviterIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Client/InviterIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Client/InviterNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Client/LastNamePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Client/PhoneNumberPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Client/RatesNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Client/ReservationsNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Client/UpdateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/ClientPhoto/ClientNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/ClientPhoto/ClientPhotoClientPhotoIdKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/ClientPhoto/ClientPhotoEntityType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/ClientPhoto/ClientPhotoIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/ClientPhoto/CreateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/ClientPhoto/DeletedPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/ClientPhoto/URLPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/ClientPhoto/UpdateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Comment/ChildrenCommentsNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Comment/ClientIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Comment/ClientIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Comment/ClientNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Comment/CommentClientIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Comment/CommentCommentIdKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Comment/CommentEntityType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Comment/CommentIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Comment/CommentParentCommentIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Comment/CommentPartnerIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Comment/CommentRateIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Comment/CommentServiceIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Comment/CommentStatusPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Comment/CommentTextPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Comment/CreateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Comment/DeletedPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Comment/ParentCommentIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Comment/ParentCommentIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Comment/ParentCommentNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Comment/PartnerIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Comment/PartnerIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Comment/PartnerNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Comment/RateIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Comment/RateIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Comment/RateNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Comment/ServiceIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Comment/ServiceIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Comment/ServiceNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Comment/UpdateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Company/CompanyCompanyIdKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Company/CompanyEntityType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Company/CompanyIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Company/CreateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Company/DeletedIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Company/DeletedPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Company/EarningsNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Company/NamePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Company/UpdateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/CompiledModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Country/CitiesNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Country/CountryCountryIdKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Country/CountryDetailsNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Country/CountryEntityType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Country/CountryIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Country/CreateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Country/DeletedIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Country/DeletedPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Country/UpdateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/CountryDetail/CountryDetailCountryIdCultureKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/CountryDetail/CountryDetailCountryIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/CountryDetail/CountryDetailEntityType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/CountryDetail/CountryIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/CountryDetail/CountryNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/CountryDetail/CreateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/CountryDetail/CultureIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/CountryDetail/CulturePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/CountryDetail/DeletedIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/CountryDetail/DeletedPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/CountryDetail/NameIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/CountryDetail/NamePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/CountryDetail/UpdateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Earning/CompanyIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Earning/CompanyIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Earning/CompanyNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Earning/CreateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Earning/DeletedIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Earning/DeletedPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Earning/EarningCompanyIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Earning/EarningEarningIdKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Earning/EarningEntityType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Earning/EarningIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Earning/EarningMottoWorkerIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Earning/EarningPartnerIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Earning/EarningPaymentIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Earning/EarningStatusIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Earning/EarningStatusPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Earning/EarningTypePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Earning/MottoWorkerIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Earning/MottoWorkerIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Earning/MottoWorkerNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Earning/PartnerIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Earning/PartnerIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Earning/PartnerNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Earning/PayTrTransferNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Earning/PaymentAmountPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Earning/PaymentIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Earning/PaymentIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Earning/PaymentNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Earning/PaymentSystemPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Earning/RowVersionPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Earning/TotalPaymentPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Earning/TransferDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Earning/UpdateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/IdentityRoleClaim/ClaimTypePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/IdentityRoleClaim/ClaimValuePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/IdentityRoleClaim/IdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/IdentityRoleClaim/IdentityRoleClaimEntityType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/IdentityRoleClaim/IdentityRoleClaimIdKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/IdentityRoleClaim/IdentityRoleClaimRoleIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/IdentityRoleClaim/RoleIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/IdentityRoleClaim/RoleIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/IdentityUserClaim/ClaimTypePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/IdentityUserClaim/ClaimValuePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/IdentityUserClaim/IdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/IdentityUserClaim/IdentityUserClaimEntityType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/IdentityUserClaim/IdentityUserClaimIdKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/IdentityUserClaim/IdentityUserClaimUserIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/IdentityUserClaim/UserIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/IdentityUserClaim/UserIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/IdentityUserLogin/IdentityUserLoginEntityType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/IdentityUserLogin/IdentityUserLoginLoginProviderProviderKeyKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/IdentityUserLogin/IdentityUserLoginUserIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/IdentityUserLogin/LoginProviderPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/IdentityUserLogin/ProviderDisplayNamePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/IdentityUserLogin/ProviderKeyPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/IdentityUserLogin/UserIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/IdentityUserLogin/UserIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/IdentityUserRole/IdentityUserRoleEntityType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/IdentityUserRole/IdentityUserRoleRoleIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/IdentityUserRole/IdentityUserRoleUserIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/IdentityUserRole/IdentityUserRoleUserIdRoleIdKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/IdentityUserRole/RoleIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/IdentityUserRole/RoleIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/IdentityUserRole/UserIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/IdentityUserToken/IdentityUserTokenEntityType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/IdentityUserToken/IdentityUserTokenUserIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/IdentityUserToken/IdentityUserTokenUserIdLoginProviderNameKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/IdentityUserToken/LoginProviderPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/IdentityUserToken/NamePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/IdentityUserToken/UserIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/IdentityUserToken/ValuePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/MottoWorker/ApproverIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/MottoWorker/ApproverIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/MottoWorker/ApproverNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/MottoWorker/ClientCommisionRatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/MottoWorker/CodeIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/MottoWorker/CodePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/MottoWorker/CreateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/MottoWorker/DeletedIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/MottoWorker/DeletedPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/MottoWorker/EarningsNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/MottoWorker/EmailPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/MottoWorker/IbanCurrencyPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/MottoWorker/IbanNamePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/MottoWorker/IbanPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/MottoWorker/InvitedMottoWorkersNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/MottoWorker/InviterIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/MottoWorker/InviterIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/MottoWorker/InviterNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/MottoWorker/LastNamePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/MottoWorker/MottoWorkerApproverIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/MottoWorker/MottoWorkerCommisionRatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/MottoWorker/MottoWorkerEntityType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/MottoWorker/MottoWorkerIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/MottoWorker/MottoWorkerInviterIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/MottoWorker/MottoWorkerMottoWorkerIdKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/MottoWorker/MottoWorkerStatusPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/MottoWorker/NamePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/MottoWorker/PhonePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/MottoWorker/UpdateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Partner/AppUserNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Partner/CreateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Partner/DeletedIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Partner/DeletedPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Partner/EarningsNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Partner/NamePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Partner/PartnerAccountIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Partner/PartnerAccountIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Partner/PartnerAccountNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Partner/PartnerAddressesNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Partner/PartnerEntityType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Partner/PartnerIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Partner/PartnerPartnerAccountIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Partner/PartnerPartnerIdKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Partner/PartnerPhonesNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Partner/PartnerStatusPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Partner/ServicesNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Partner/SubMerchantKeyPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Partner/UpdateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerAccount/CreateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerAccount/CurrencyPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerAccount/DeletedIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerAccount/DeletedPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerAccount/EInvoicePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerAccount/IBANPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerAccount/LastNameForIBANPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerAccount/LegalNamePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerAccount/NameForIBANPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerAccount/PartnerAccountEntityType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerAccount/PartnerAccountIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerAccount/PartnerAccountPartnerAccountIdKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerAccount/PartnerNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerAccount/TaxNumberPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerAccount/TaxOfficePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerAccount/UpdateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerAddress/AddressPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerAddress/CityIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerAddress/CountryIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerAddress/CreateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerAddress/DeletedIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerAddress/DeletedPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerAddress/PartnerAddressEntityType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerAddress/PartnerAddressIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerAddress/PartnerAddressPartnerAddressIdKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerAddress/PartnerAddressPartnerIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerAddress/PartnerIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerAddress/PartnerIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerAddress/PartnerNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerAddress/UpdateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerAddress/ZipCodePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerPhone/CreateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerPhone/DeletedPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerPhone/NumberPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerPhone/PartnerIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerPhone/PartnerIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerPhone/PartnerNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerPhone/PartnerPhoneEntityType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerPhone/PartnerPhoneIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerPhone/PartnerPhonePartnerIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerPhone/PartnerPhonePartnerPhoneIdKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PartnerPhone/UpdateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PayTrPayment/CreateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PayTrPayment/DeletedIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PayTrPayment/DeletedPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PayTrPayment/PayTrPaymentEntityType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PayTrPayment/PayTrPaymentIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PayTrPayment/PayTrPaymentPayTrPaymentIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PayTrPayment/PayTrPaymentPayTrPaymentIdKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PayTrPayment/PaymentIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PayTrPayment/PaymentNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PayTrPayment/UpdateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PayTrTransfer/CreateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PayTrTransfer/DeletedIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PayTrTransfer/DeletedPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PayTrTransfer/EarningIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PayTrTransfer/EarningIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PayTrTransfer/EarningNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PayTrTransfer/PayTrTransferEarningIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PayTrTransfer/PayTrTransferEntityType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PayTrTransfer/PayTrTransferIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PayTrTransfer/PayTrTransferPayTrTransferIdKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PayTrTransfer/ReferencePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PayTrTransfer/UpdateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Payment/CreateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Payment/CurrencyPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Payment/DeletedIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Payment/DeletedPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Payment/EarningsNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Payment/PNRCodeIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Payment/PNRCodePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Payment/PayTrPaymentNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Payment/PaymentEntityType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Payment/PaymentIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Payment/PaymentPaymentIdKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Payment/PaymentReservationIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Payment/PaymentSytemPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Payment/ReservationIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Payment/ReservationIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Payment/ReservationNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Payment/StatusPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Payment/TotalPaymentPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Payment/UpdateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PopularService/CreateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PopularService/DeletedPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PopularService/PopularServiceEntityType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PopularService/PopularServiceIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PopularService/PopularServicePopularServiceIdKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PopularService/PopularServiceServiceIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PopularService/ServiceIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PopularService/ServiceIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PopularService/ServiceNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/PopularService/UpdateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Rate/ClientIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Rate/ClientIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Rate/ClientNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Rate/CommentNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Rate/CreateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Rate/DeletedIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Rate/DeletedPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Rate/PointIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Rate/PointPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Rate/RateClientIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Rate/RateEntityType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Rate/RateIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Rate/RateRateIdKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Rate/RateServiceIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Rate/RateTourIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Rate/ServiceIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Rate/ServiceIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Rate/ServiceNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Rate/TourIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Rate/TourIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Rate/UpdateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Reservation/ClientIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Reservation/ClientIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Reservation/ClientNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Reservation/CreateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Reservation/CurrencyPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Reservation/DatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Reservation/DeletedIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Reservation/DeletedPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Reservation/EmailPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Reservation/LastNamePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Reservation/NamePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Reservation/PaymentNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Reservation/PhoneNumberPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Reservation/ReservationClientIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Reservation/ReservationEntityType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Reservation/ReservationIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Reservation/ReservationReservationIdKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Reservation/ReservationServiceIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Reservation/ReservationStatusIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Reservation/ReservationStatusPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Reservation/RowVersionPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Reservation/ServiceIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Reservation/ServiceIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Reservation/ServiceNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Reservation/ServiceTypeIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Reservation/ServiceTypePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Reservation/TCPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Reservation/TicketCountPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Reservation/TotalPricePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Reservation/TourReservationNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Reservation/UpdateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Service/AvgRatingIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Service/AvgRatingPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Service/CommissionRatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Service/CreateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Service/DeletedIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Service/DeletedPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Service/NamePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Service/PartnerIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Service/PartnerIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Service/PartnerNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Service/PopularServicesNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Service/RateCountIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Service/RateCountPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Service/RatesNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Service/ReservationsNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Service/RowVersionPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Service/ServiceEntityType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Service/ServiceIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Service/ServicePartnerIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Service/ServiceServiceIdKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Service/ServiceStatusPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Service/ServiceTypePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Service/ToursNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Service/UpdateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/SubcategoryTourMatch/CreateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/SubcategoryTourMatch/DeletedIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/SubcategoryTourMatch/DeletedPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/SubcategoryTourMatch/SubcategoryTourMatchEntityType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/SubcategoryTourMatch/SubcategoryTourMatchTourCategoryIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/SubcategoryTourMatch/SubcategoryTourMatchTourCategoryIdTourIdKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/SubcategoryTourMatch/SubcategoryTourMatchTourIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/SubcategoryTourMatch/SubcategoryTourMatchTourSubcategoryIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/SubcategoryTourMatch/TourCategoryIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/SubcategoryTourMatch/TourCategoryNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/SubcategoryTourMatch/TourIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/SubcategoryTourMatch/TourIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/SubcategoryTourMatch/TourNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/SubcategoryTourMatch/TourSubcategoryIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/SubcategoryTourMatch/TourSubcategoryIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/SubcategoryTourMatch/TourSubcategoryNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/SubcategoryTourMatch/UpdateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/AdultEnabledPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/AdultManEnabledPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/AdultManPricePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/AdultPricePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/AdultWomanEnabledPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/AdultWomanPricePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/ChildEnabledPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/ChildPricePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/CreateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/CurrencyPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/DateIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/DatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/DeletedIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/DeletedPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/DurationPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/FeaturedImageNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/InfantEnabledPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/InfantPricePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/LastPurchaseHoursBeforeServiceTimePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/LastReservationHoursBeforeServiceTimePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/LatitudePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/LongitudePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/MaxAdultAgePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/MaxAdultManAgePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/MaxAdultWomanAgePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/MaxChildAgePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/MaxInfantAgePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/MinAdultAgePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/MinAdultManAgePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/MinAdultWomanAgePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/MinChildAgePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/MinInfantAgePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/MobileSlideImagesNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/PurchasedTicketCountPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/RatesNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/ReservedTicketCountPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/RowVersionPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/ServiceIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/ServiceIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/ServiceNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/SubcategoryTourMatchesNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/TicketCountPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/TourAddressesNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/TourBarImageNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/TourDetailsNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/TourEntityType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/TourExtrasNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/TourIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/TourReservationsNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/TourServiceIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/TourStatusPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/TourTourIdKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Tour/UpdateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourAddress/CreateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourAddress/CulturePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourAddress/DeletedIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourAddress/DeletedPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourAddress/OpenAddressPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourAddress/TourAddressEntityType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourAddress/TourAddressTourIdCultureKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourAddress/TourAddressTourIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourAddress/TourIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourAddress/TourNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourAddress/UpdateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourCategory/CreateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourCategory/DeletedIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourCategory/DeletedPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourCategory/SourceKeyPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourCategory/SubcategoryTourMatchesNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourCategory/TourCategoryDetailsNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourCategory/TourCategoryEntityType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourCategory/TourCategoryIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourCategory/TourCategoryTourCategoryIdKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourCategory/TourSubcategoriesNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourCategory/UpdateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourCategoryDetail/CreateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourCategoryDetail/CulturePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourCategoryDetail/DeletedIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourCategoryDetail/DeletedPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourCategoryDetail/NamePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourCategoryDetail/TourCategoryDetailEntityType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourCategoryDetail/TourCategoryDetailTourCategoryIdCultureKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourCategoryDetail/TourCategoryDetailTourCategoryIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourCategoryDetail/TourCategoryIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourCategoryDetail/TourCategoryNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourCategoryDetail/UpdateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourDetail/CreateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourDetail/CulturePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourDetail/DeletedIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourDetail/DeletedPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourDetail/ExcludesPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourDetail/FullDescriptionPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourDetail/IncludesPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourDetail/NamePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourDetail/SummaryPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourDetail/TourDetailEntityType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourDetail/TourDetailTourIdCultureKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourDetail/TourDetailTourIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourDetail/TourIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourDetail/TourNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourDetail/UpdateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtra/AdultEnabledPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtra/AdultManEnabledPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtra/AdultManPricePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtra/AdultPricePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtra/AdultWomanEnabledPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtra/AdultWomanPricePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtra/ChildEnabledPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtra/ChildPricePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtra/CreateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtra/DeletedIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtra/DeletedPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtra/InfantEnabledPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtra/InfantPricePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtra/InfoIsNeededPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtra/PurchasedTicketCountPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtra/ReservedTicketCountPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtra/TicketCountPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtra/TourExtraDetailsNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtra/TourExtraEntityType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtra/TourExtraIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtra/TourExtraReservationsNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtra/TourExtraTourExtraIdKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtra/TourExtraTourIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtra/TourIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtra/TourIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtra/TourNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtra/UpdateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtraDetail/CreateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtraDetail/CulturePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtraDetail/DeletedIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtraDetail/DeletedPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtraDetail/NamePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtraDetail/PlaceholderPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtraDetail/TourExtraDetailEntityType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtraDetail/TourExtraDetailTourExtraIdCultureKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtraDetail/TourExtraDetailTourExtraIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtraDetail/TourExtraIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtraDetail/TourExtraNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtraDetail/UpdateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtraReservation/AdultCountPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtraReservation/AdultManCountPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtraReservation/AdultManPricePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtraReservation/AdultPricePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtraReservation/AdultWomanCountPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtraReservation/AdultWomanPricePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtraReservation/ChildCountPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtraReservation/ChildPricePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtraReservation/CreateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtraReservation/DeletedIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtraReservation/DeletedPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtraReservation/InfantCountPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtraReservation/InfantPricePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtraReservation/InfoPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtraReservation/RowVersionPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtraReservation/TourExtraIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtraReservation/TourExtraIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtraReservation/TourExtraNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtraReservation/TourExtraReservationEntityType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtraReservation/TourExtraReservationIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtraReservation/TourExtraReservationTourExtraIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtraReservation/TourExtraReservationTourExtraReservationIdKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtraReservation/TourExtraReservationTourReservationIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtraReservation/TourReservationIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtraReservation/TourReservationIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtraReservation/TourReservationNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourExtraReservation/UpdateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourImage/CreateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourImage/DeletedIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourImage/DeletedPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourImage/FeaturedImageTourIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourImage/FeaturedImageTourIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourImage/FeaturedImageTourNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourImage/SourceKeyPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourImage/TourBarImageTourIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourImage/TourBarImageTourIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourImage/TourBarImageTourNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourImage/TourIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourImage/TourIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourImage/TourImageEntityType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourImage/TourImageFeaturedImageTourIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourImage/TourImageIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourImage/TourImageTourBarImageTourIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourImage/TourImageTourIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourImage/TourImageTourImageIdKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourImage/TourNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourImage/UpdateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourReservation/AdultCountPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourReservation/AdultManCountPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourReservation/AdultManPricePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourReservation/AdultPricePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourReservation/AdultWomanCountPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourReservation/AdultWomanPricePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourReservation/BuyerIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourReservation/ChildCountPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourReservation/ChildPricePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourReservation/CreateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourReservation/DeletedIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourReservation/DeletedPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourReservation/InfantCountPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourReservation/InfantPricePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourReservation/PushTokenPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourReservation/ReservationIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourReservation/ReservationIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourReservation/ReservationNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourReservation/RowVersionPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourReservation/TotalTourExtraPricePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourReservation/TourExtraReservationsNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourReservation/TourIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourReservation/TourIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourReservation/TourNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourReservation/TourReservationEntityType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourReservation/TourReservationIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourReservation/TourReservationReservationIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourReservation/TourReservationTourIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourReservation/TourReservationTourReservationIdKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourReservation/UpdateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourSubcategory/CreateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourSubcategory/DeletedIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourSubcategory/DeletedPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourSubcategory/SourceKeyPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourSubcategory/SubcategoryTourMatchesNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourSubcategory/TourCategoryIdIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourSubcategory/TourCategoryIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourSubcategory/TourCategoryNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourSubcategory/TourSubcategoryDetailsNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourSubcategory/TourSubcategoryEntityType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourSubcategory/TourSubcategoryIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourSubcategory/TourSubcategoryTourCategoryIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourSubcategory/TourSubcategoryTourSubcategoryIdKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourSubcategory/UpdateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourSubcategoryDetail/CreateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourSubcategoryDetail/CulturePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourSubcategoryDetail/DeletedIndex.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourSubcategoryDetail/DeletedPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourSubcategoryDetail/NamePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourSubcategoryDetail/TourSubcategoryDetailEntityType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourSubcategoryDetail/TourSubcategoryDetailTourSubcategoryIdCultureKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourSubcategoryDetail/TourSubcategoryDetailTourSubcategoryIdForeignKey.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourSubcategoryDetail/TourSubcategoryIdPropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourSubcategoryDetail/TourSubcategoryNavigation.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/TourSubcategoryDetail/UpdateDatePropertyType.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/ModelCompiler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EntityCompiledModelGenerator/ModelCompiler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EntityCompiledModelGenerator/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/SmartFormatHelpers/AnnotationListFormatter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EntityCompiledModelGenerator/SmartFormatHelpers/AnnotationListFormatter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/SmartFormatHelpers/IndexListFormatter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EntityCompiledModelGenerator/SmartFormatHelpers/IndexListFormatter.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/bin/Debug/netcoreapp2.2/EntityCompiledModelGenerator.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/EntityCompiledModelGenerator/bin/Debug/netcoreapp2.2/EntityCompiledModelGenerator.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/bin/Debug/netcoreapp2.2/EntityCompiledModelGenerator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EntityCompiledModelGenerator/bin/Debug/netcoreapp2.2/EntityCompiledModelGenerator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/bin/Debug/netcoreapp2.2/EntityCompiledModelGenerator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EntityCompiledModelGenerator/bin/Debug/netcoreapp2.2/EntityCompiledModelGenerator.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/bin/Debug/netcoreapp2.2/Mottojoy.Infrastructure.Data.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/bin/Debug/netcoreapp2.2/Mottojoy.Infrastructure.Data.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/bin/Debug/netcoreapp2.2/Mottojoy.Infrastructure.Entity.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/bin/Debug/netcoreapp2.2/Mottojoy.Infrastructure.Entity.pdb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/obj/Debug/netcoreapp2.2/EntityCompiledModelGenerator.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EntityCompiledModelGenerator/obj/Debug/netcoreapp2.2/EntityCompiledModelGenerator.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/obj/Debug/netcoreapp2.2/EntityCompiledModelGenerator.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EntityCompiledModelGenerator/obj/Debug/netcoreapp2.2/EntityCompiledModelGenerator.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/obj/Debug/netcoreapp2.2/EntityCompiledModelGenerator.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/EntityCompiledModelGenerator/obj/Debug/netcoreapp2.2/EntityCompiledModelGenerator.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/obj/Debug/netcoreapp2.2/EntityCompiledModelGenerator.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EntityCompiledModelGenerator/obj/Debug/netcoreapp2.2/EntityCompiledModelGenerator.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/obj/Debug/netcoreapp2.2/EntityCompiledModelGenerator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/EntityCompiledModelGenerator/obj/Debug/netcoreapp2.2/EntityCompiledModelGenerator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/obj/Debug/netcoreapp2.2/EntityCompiledModelGenerator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/EntityCompiledModelGenerator/obj/Debug/netcoreapp2.2/EntityCompiledModelGenerator.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/obj/EntityCompiledModelGenerator.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/EntityCompiledModelGenerator/obj/EntityCompiledModelGenerator.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/obj/EntityCompiledModelGenerator.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/EntityCompiledModelGenerator/obj/EntityCompiledModelGenerator.csproj.nuget.g.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/EntityCompiledModelGenerator/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EntityCompiledModelGenerator/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/EntityCompiledModelGenerator/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleContext/SampleContext.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SampleContext/SampleContext.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleContext/SampleContextFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SampleContext/SampleContextFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleContext/obj/Debug/netstandard2.0/SampleContext.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SampleContext/obj/Debug/netstandard2.0/SampleContext.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleContext/obj/Debug/netstandard2.0/SampleContext.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SampleContext/obj/Debug/netstandard2.0/SampleContext.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleContext/obj/SampleContext.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SampleContext/obj/SampleContext.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleContext/obj/SampleContext.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/SampleContext/obj/SampleContext.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleContext/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/SampleContext/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SampleContext/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SampleContext/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -798,23 +41,28 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SampleContext/SampleContextFactory.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="15" column="59" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="59" />
+            <state relative-caret-position="300">
+              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
               <folding>
-                <marker date="1552780452108" expanded="false" signature="6:204" ph="..." />
-                <marker date="1552780452108" expanded="true" signature="229:737" ph="{...}" />
-                <marker date="1552780452108" expanded="true" signature="313:735" ph="{...}" />
-                <marker date="1552780452108" expanded="true" signature="379:729" ph="{...}" />
+                <marker date="1552810618895" expanded="true" signature="6:204" ph="..." />
+                <marker date="1552810618895" expanded="true" signature="229:616" ph="{...}" />
+                <marker date="1552810618895" expanded="true" signature="313:614" ph="{...}" />
+                <marker date="1552810618895" expanded="true" signature="379:608" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D66EA663-E803-4E1D-B9B9-92E84CCC8B9C/f6/995f69f2/MemoryCacheOptions.cs">
+        <entry file="file://$PROJECT_DIR$/SampleContext/SampleContext.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="63" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="63" />
+            <state relative-caret-position="180">
+              <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+              <folding>
+                <marker date="1552779631593" expanded="true" signature="134:1229" ph="{...}" />
+                <marker date="1552779631593" expanded="true" signature="376:409" ph="{...}" />
+                <marker date="1552779631593" expanded="true" signature="485:1223" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -859,19 +107,43 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/SmartFormatHelpers/NavigationNamespaceListFormatter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/a0/4f077cd8/InternalModelBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/088051FB-72DE-4607-81C4-D1937DDE71E2/d4/4b55e373/RuntimeType.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/EfCoreExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/45/f02bf51e/ServiceProperty.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/9c/4e1433a9/ConventionalAnnotatable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/SmartFormatHelpers/ServicePropertiesFormatter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/088051FB-72DE-4607-81C4-D1937DDE71E2/91/424b647a/Type.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/13/61dadb96/Annotatable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/ea/c33cdfdb/Model.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/088051FB-72DE-4607-81C4-D1937DDE71E2/bb/f53adcd7/MethodBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/088051FB-72DE-4607-81C4-D1937DDE71E2/a2/83fac648/PropertyInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/46/5a675cbb/IPropertyBase.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BBAD746A-B614-4D9F-90F1-8E1D6EEE458B/06/4bc807bd/ConcurrentDictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/41E5BB8F-94EA-4272-95AF-FA9C95FFCD52/2f/cacf54d1/SmartFormatter.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/088051FB-72DE-4607-81C4-D1937DDE71E2/e0/dd321943/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/a6/c3004028/ParameterBinding.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/088051FB-72DE-4607-81C4-D1937DDE71E2/de/cc047a25/StringBuilder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/Extensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/ca/c98cec03/ConventionalAnnotation.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/81/f7420c0a/ModelExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/c1/50a0c190/TypeBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/088051FB-72DE-4607-81C4-D1937DDE71E2/8a/2f361aef/RuntimeConstructorInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/088051FB-72DE-4607-81C4-D1937DDE71E2/d7/fdda89d8/ConstructorInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/96/53d76fdc/PropertySaveBehavior.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/40/098b0b8d/DirectConstructorBinding.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/SmartFormatHelpers/IndexListFormatter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/ab/5145a499/IAnnotatable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/a7/1fe38f61/IIndex.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Projects/mottojoy/mottojoy-api/Mottojoy.Infrastructure.Data/SeedMethods.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E66A1F96-E973-4A7F-AC7C-EA0901022728/69/9b52c969/DbContextServices.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/23/7e32969b/IForeignKey.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Projects/mottojoy/mottojoy-api/Mottojoy.Infrastructure.Data/MottojoyContextFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/SmartFormatHelpers/AnnotationListFormatter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Projects/mottojoy/mottojoy-api/Mottojoy.Infrastructure.Data/MottojoyContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D66EA663-E803-4E1D-B9B9-92E84CCC8B9C/f6/995f69f2/MemoryCacheOptions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/SmartFormatHelpers/PropertyListFormatter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/ff/c34b1521/ForeignKey.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/3e/29f0b654/IAnnotation.cs" root0="SKIP_HIGHLIGHTING" />
@@ -879,20 +151,29 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/be/45c0fe90/IEntityType.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/SmartFormatHelpers/EntityNamespaceListFormatter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/81/c10997e1/ConfigurationSource.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/3a/2a5834b6/ITypeBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Projects/mottojoy/mottojoy-api/Mottojoy.Infrastructure.Entity/EvaluationDBO/Comment.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/2d/71a9e9de/IProperty.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/05/f012d6d3/ValueGenerated.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/81/3a33fa58/Key.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/088051FB-72DE-4607-81C4-D1937DDE71E2/3d/6eec8275/ReadOnlyCollection`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/f3/0f70716b/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/62/1ccbd907/IKey.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/088051FB-72DE-4607-81C4-D1937DDE71E2/86/c250d91a/ArraySegment`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F255C835-8DA9-43A3-B723-334DC71CC7B6/9f/9f715823/ImmutableList.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/fe/843027be/Index.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/SmartFormatHelpers/KeyListFormatter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/SmartFormatHelpers/TypeBaseFormatter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/088051FB-72DE-4607-81C4-D1937DDE71E2/ea/78015b95/IReadOnlyList`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/SmartFormatHelpers/ForeignKeyNamespaceListFormatter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0DF202CC-A172-4FAE-8179-944D7DDFA9DE/00/be4efa22/Expression.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/c8/ca662d16/EntityType.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SampleContext/SampleContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SampleContext/Entities/Movie.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SampleContext/Entities/Actor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SampleContext/Entities/Casting.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SampleContext/SampleContextFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/088051FB-72DE-4607-81C4-D1937DDE71E2/c9/eef943ba/Func`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/088051FB-72DE-4607-81C4-D1937DDE71E2/5e/170e1177/MemberInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/e6/dbac46a1/PropertyBaseExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/SmartFormatHelpers/LambdaExpressionFormatter.cs" root0="FORCE_HIGHLIGHTING" />
@@ -902,61 +183,28 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B549A073-584F-47E4-9E4E-08EC5F4947F9/64/e1bc07ca/Queryable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/432048A8-C9C7-41FA-9105-FC226011555E/24/99ed2f4a/IMemoryCache.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4B47B422-BC4C-4615-BBDE-BE1DF9B21B0D/50/24a65e8e/ServiceProviderServiceExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98D8D470-5AFA-412C-8DF7-CFEB2B5F7EAC/63/33a01826/MemoryCache.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/87DAEA5C-C5D0-47D4-A6BB-FF8954AA1C4A/bb/005d4da1/IOptions`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98D8D470-5AFA-412C-8DF7-CFEB2B5F7EAC/d3/7ea4de8e/MemoryCacheOptions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/088051FB-72DE-4607-81C4-D1937DDE71E2/75/430e3e52/Enum.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/ModelCompiler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/26C1B464-9AE4-438C-9C8D-4196D8AE0883/13/286a3d34/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C66854E9-B43D-47C8-A618-42000DD76708/8a/9d5f528d/DynamicExpression.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/088051FB-72DE-4607-81C4-D1937DDE71E2/29/6d496380/RuntimeTypeHandle.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/SmartFormatHelpers/NavigationNamespaceListFormatter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/a0/4f077cd8/InternalModelBuilder.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/088051FB-72DE-4607-81C4-D1937DDE71E2/d4/4b55e373/RuntimeType.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/EfCoreExtensions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/9c/4e1433a9/ConventionalAnnotatable.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/088051FB-72DE-4607-81C4-D1937DDE71E2/91/424b647a/Type.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/ea/c33cdfdb/Model.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/088051FB-72DE-4607-81C4-D1937DDE71E2/e0/dd321943/List`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/a6/c3004028/ParameterBinding.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/088051FB-72DE-4607-81C4-D1937DDE71E2/de/cc047a25/StringBuilder.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/Extensions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/ca/c98cec03/ConventionalAnnotation.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/c1/50a0c190/TypeBase.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/088051FB-72DE-4607-81C4-D1937DDE71E2/8a/2f361aef/RuntimeConstructorInfo.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/088051FB-72DE-4607-81C4-D1937DDE71E2/d7/fdda89d8/ConstructorInfo.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/96/53d76fdc/PropertySaveBehavior.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/40/098b0b8d/DirectConstructorBinding.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/SmartFormatHelpers/IndexListFormatter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Projects/mottojoy/mottojoy-api/Mottojoy.Infrastructure.Data/SeedMethods.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E66A1F96-E973-4A7F-AC7C-EA0901022728/69/9b52c969/DbContextServices.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/23/7e32969b/IForeignKey.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Projects/mottojoy/mottojoy-api/Mottojoy.Infrastructure.Data/MottojoyContextFactory.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Projects/mottojoy/mottojoy-api/Mottojoy.Infrastructure.Data/MottojoyContext.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D66EA663-E803-4E1D-B9B9-92E84CCC8B9C/f6/995f69f2/MemoryCacheOptions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/3a/2a5834b6/ITypeBase.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Projects/mottojoy/mottojoy-api/Mottojoy.Infrastructure.Entity/EvaluationDBO/Comment.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/088051FB-72DE-4607-81C4-D1937DDE71E2/3d/6eec8275/ReadOnlyCollection`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/088051FB-72DE-4607-81C4-D1937DDE71E2/86/c250d91a/ArraySegment`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F255C835-8DA9-43A3-B723-334DC71CC7B6/9f/9f715823/ImmutableList.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/088051FB-72DE-4607-81C4-D1937DDE71E2/ea/78015b95/IReadOnlyList`1.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/SmartFormatHelpers/ForeignKeyNamespaceListFormatter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/c8/ca662d16/EntityType.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/088051FB-72DE-4607-81C4-D1937DDE71E2/c9/eef943ba/Func`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/088051FB-72DE-4607-81C4-D1937DDE71E2/21/47fe0e96/Interop.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/SmartFormatHelpers/ModelNamespaceListFormatter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98D8D470-5AFA-412C-8DF7-CFEB2B5F7EAC/63/33a01826/MemoryCache.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/Comparers/AnnotationComparer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/87DAEA5C-C5D0-47D4-A6BB-FF8954AA1C4A/bb/005d4da1/IOptions`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/Comparers/NavigationComparer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98D8D470-5AFA-412C-8DF7-CFEB2B5F7EAC/d3/7ea4de8e/MemoryCacheOptions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/e2/0ed7bd8e/IServiceProperty.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/SmartFormatHelpers/NavigationFormatter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/Comparers/ServicePropertyComparer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/Comparers/KeyComparer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/Comparers/ForeignKeyComparer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/Comparers/PropertyComparer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/088051FB-72DE-4607-81C4-D1937DDE71E2/75/430e3e52/Enum.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/Comparers/IndexComparer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/Comparers/EntityTypeComparer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/ModelCompiler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/Comparers/ModelComparer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/26C1B464-9AE4-438C-9C8D-4196D8AE0883/13/286a3d34/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/SmartFormatHelpers/EntityTypeListFormatter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C66854E9-B43D-47C8-A618-42000DD76708/8a/9d5f528d/DynamicExpression.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/088051FB-72DE-4607-81C4-D1937DDE71E2/29/6d496380/RuntimeTypeHandle.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0DF202CC-A172-4FAE-8179-944D7DDFA9DE/27/3d7d1596/LambdaExpression.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/088051FB-72DE-4607-81C4-D1937DDE71E2/09/4528e23b/IntrospectionExtensions.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -1029,17 +277,14 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="EntityCompiledModeGenerator" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="EntityCompiledModeGenerator" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Mottojoy.Infrastructure.Data" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
@@ -1051,8 +296,6 @@
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
-      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1130,7 +373,8 @@
       <workItem from="1552665712774" duration="712000" />
       <workItem from="1552671542465" duration="4511000" />
       <workItem from="1552681152197" duration="18733000" />
-      <workItem from="1552734255925" duration="37384000" />
+      <workItem from="1552734255925" duration="37703000" />
+      <workItem from="1552810409461" duration="246000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1552778255614</created>
@@ -1139,11 +383,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552778255614</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="sample project added">
+      <created>1552780530885</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1552780530885</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114465000" />
+    <option name="totallyTimeSpent" value="115030000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1156,12 +407,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2771673" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2802198" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32959184" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32959184" />
@@ -1169,9 +422,9 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32959184" />
-      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32959184" />
+      <window_info active="true" anchor="bottom" id="NuGet" order="7" visible="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32959184" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32959184" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.32959184" />
       <window_info anchor="bottom" id="Terminal" order="12" weight="0.32959184" />
@@ -1218,7 +471,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial" />
+    <MESSAGE value="sample project added" />
+    <option name="LAST_COMMIT_MESSAGE" value="sample project added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1230,27 +484,13 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/IdentityRoleClaim/IdentityRoleClaimEntityType.cs</url>
           <line>97</line>
-          <properties documentPath="$PROJECT_DIR$/EntityCompiledModeGenerator/MainFolder/IdentityRoleClaim/IdentityRoleClaimEntityType.cs" initialLine="97">
-            <startOffsets>
-              <option value="2602" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2623" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/EntityCompiledModeGenerator/MainFolder/IdentityRoleClaim/IdentityRoleClaimEntityType.cs" initialLine="97" />
           <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/IdentityRoleClaim/IdentityRoleClaimEntityType.cs</url>
           <line>81</line>
-          <properties documentPath="$PROJECT_DIR$/EntityCompiledModeGenerator/MainFolder/IdentityRoleClaim/IdentityRoleClaimEntityType.cs" initialLine="81">
-            <startOffsets>
-              <option value="2224" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2246" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/EntityCompiledModeGenerator/MainFolder/IdentityRoleClaim/IdentityRoleClaimEntityType.cs" initialLine="81" />
           <option name="timeStamp" value="81" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
@@ -1295,14 +535,7 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/CompiledModel.cs</url>
           <line>73</line>
-          <properties documentPath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/CompiledModel.cs" initialLine="73">
-            <startOffsets>
-              <option value="2166" />
-            </startOffsets>
-            <endOffsets>
-              <option value="2178" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/CompiledModel.cs" initialLine="73" />
           <option name="timeStamp" value="92" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
@@ -1318,30 +551,11 @@
           </properties>
           <option name="timeStamp" value="95" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/SampleContext/SampleContextFactory.cs</url>
-          <line>15</line>
-          <properties documentPath="$PROJECT_DIR$/SampleContext/SampleContextFactory.cs" initialLine="15">
-            <startOffsets>
-              <option value="483" />
-            </startOffsets>
-            <endOffsets>
-              <option value="533" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="96" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Admin/DeletedPropertyType.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Admin/DeletedPropertyType.cs" />
     <entry file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/CodeTemplates/PropertyTypeTemplate.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1551,13 +765,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Service/ServiceEntityType.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Service/ServiceEntityType.cs" />
     <entry file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/CodeTemplates/EntityTypeTemplate.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1565,13 +773,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Admin/AdminEntityType.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/Admin/AdminEntityType.cs" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/9B2250D1-FB76-44B9-8AF1-AB5ED79E762F/ea/c33cdfdb/Model.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
@@ -1816,7 +1018,6 @@
           <caret line="10" column="39" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="39" />
           <folding>
             <marker date="1552777633004" expanded="false" signature="8:61" ph="..." />
-            <marker date="1552777633004" expanded="true" signature="111:912" ph="{...}" />
             <marker date="1552777633004" expanded="true" signature="118:248" ph="///     Extension methods for &lt;see cref=&quot;T:Microsoft.EntityFrameworkCore.Metadata.IModel&quot; /&gt;. ... " />
             <marker date="1552777633004" expanded="true" signature="288:910" ph="{...}" />
             <marker date="1552777633004" expanded="true" signature="303:780" ph="///     Gets the entity that maps the given entity class. Returns null if no entity type with the given CLR type  ... " />
@@ -1825,16 +1026,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SampleContext/Class1.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/CompiledModel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="71" column="49" selection-start-line="71" selection-start-column="49" selection-end-line="71" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/SampleContext/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/EntityCompiledModelGenerator/MainFolder/CompiledModel.cs" />
     <entry file="file://$PROJECT_DIR$/SampleContext/Entities/Movie.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -2129,20 +1322,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SampleContext/SampleContext.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-          <folding>
-            <marker date="1552779631593" expanded="false" signature="6:66" ph="..." />
-            <marker date="1552779631593" expanded="true" signature="91:1231" ph="{...}" />
-            <marker date="1552779631593" expanded="true" signature="134:1229" ph="{...}" />
-            <marker date="1552779631593" expanded="true" signature="376:409" ph="{...}" />
-            <marker date="1552779631593" expanded="true" signature="485:1223" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Projects/mottojoy/mottojoy-api/Mottojoy.Infrastructure.Data/MottojoyContextFactory.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -2165,7 +1344,6 @@
           <caret line="73" column="16" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
           <folding>
             <marker date="1552780190903" expanded="false" signature="6:533" ph="..." />
-            <marker date="1552780190903" expanded="true" signature="574:2943" ph="{...}" />
             <marker date="1552780190903" expanded="true" signature="594:2936" ph="{...}" />
             <marker date="1552780190903" expanded="true" signature="640:741" ph="{...}" />
             <marker date="1552780190903" expanded="true" signature="772:1050" ph="{...}" />
@@ -2192,15 +1370,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SampleContext/SampleContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+          <folding>
+            <marker date="1552779631593" expanded="true" signature="134:1229" ph="{...}" />
+            <marker date="1552779631593" expanded="true" signature="376:409" ph="{...}" />
+            <marker date="1552779631593" expanded="true" signature="485:1223" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SampleContext/SampleContextFactory.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" column="59" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="59" />
+        <state relative-caret-position="300">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
           <folding>
-            <marker date="1552780452108" expanded="false" signature="6:204" ph="..." />
-            <marker date="1552780452108" expanded="true" signature="229:737" ph="{...}" />
-            <marker date="1552780452108" expanded="true" signature="313:735" ph="{...}" />
-            <marker date="1552780452108" expanded="true" signature="379:729" ph="{...}" />
+            <marker date="1552810618895" expanded="true" signature="6:204" ph="..." />
+            <marker date="1552810618895" expanded="true" signature="229:616" ph="{...}" />
+            <marker date="1552810618895" expanded="true" signature="313:614" ph="{...}" />
+            <marker date="1552810618895" expanded="true" signature="379:608" ph="{...}" />
           </folding>
         </state>
       </provider>

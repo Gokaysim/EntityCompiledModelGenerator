@@ -13,9 +13,7 @@ namespace SampleContext
         { 
             var optionsBuilder = new DbContextOptionsBuilder<SampleContext>();
 
-            var memoryCacheOptions = new MemoryCacheOptions();
-            var memoryCache = new MemoryCache(memoryCacheOptions);
-            optionsBuilder.UseMemoryCache(memoryCache);
+            optionsBuilder.UseSqlite("Data Source=blogging.db");
 
             return new SampleContext(optionsBuilder.Options);
         }

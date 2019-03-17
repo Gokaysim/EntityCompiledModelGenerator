@@ -224,6 +224,39 @@
         <e p="EfCoreExtensions.cs" t="Include" />
         <e p="EntityCompiledModelGenerator.csproj" t="IncludeRecursive" />
         <e p="Extensions.cs" t="Include" />
+        <e p="MainFolder" t="Include">
+          <e p="Actor" t="Include">
+            <e p="ActorActorIdKey.cs" t="Include" />
+            <e p="ActorEntityType.cs" t="Include" />
+            <e p="ActorIdPropertyType.cs" t="Include" />
+            <e p="BirthDatePropertyType.cs" t="Include" />
+            <e p="CastingsNavigation.cs" t="Include" />
+            <e p="LastNamePropertyType.cs" t="Include" />
+            <e p="NamePropertyType.cs" t="Include" />
+          </e>
+          <e p="Casting" t="Include">
+            <e p="ActorIdIndex.cs" t="Include" />
+            <e p="ActorIdPropertyType.cs" t="Include" />
+            <e p="ActorNavigation.cs" t="Include" />
+            <e p="CastingActorIdForeignKey.cs" t="Include" />
+            <e p="CastingCastingIdKey.cs" t="Include" />
+            <e p="CastingEntityType.cs" t="Include" />
+            <e p="CastingIdPropertyType.cs" t="Include" />
+            <e p="CastingMovieIdForeignKey.cs" t="Include" />
+            <e p="MovieIdIndex.cs" t="Include" />
+            <e p="MovieIdPropertyType.cs" t="Include" />
+            <e p="MovieNavigation.cs" t="Include" />
+          </e>
+          <e p="CompiledModel.cs" t="Include" />
+          <e p="Movie" t="Include">
+            <e p="AveragePointsPropertyType.cs" t="Include" />
+            <e p="CastingsNavigation.cs" t="Include" />
+            <e p="MovieEntityType.cs" t="Include" />
+            <e p="MovieIdPropertyType.cs" t="Include" />
+            <e p="MovieMovieIdKey.cs" t="Include" />
+            <e p="MovieNamePropertyType.cs" t="Include" />
+          </e>
+        </e>
         <e p="ModelCompiler.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">

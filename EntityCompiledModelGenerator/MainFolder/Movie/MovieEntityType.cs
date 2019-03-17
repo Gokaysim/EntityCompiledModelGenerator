@@ -7,117 +7,128 @@ using EntityCompiledModelGenerator;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
-using {ClassNamespace};
-{:entitynamespacelist:}
+using SampleContext.Entities;
 
-namespace {Namespace}.{EntityClassName}Classes
-{{
-    public class {ClassName} : IEntityType
-    {{
-        private static {ClassName} _instance;
-        public static {ClassName} GetInstance()
-        {{
+
+namespace test.MovieClasses
+{
+    public class MovieEntityType : IEntityType
+    {
+        private static MovieEntityType _instance;
+        public static MovieEntityType GetInstance()
+        {
             if(_instance==null)
-            {{
-                _instance = new {ClassName}();
-            }}
+            {
+                _instance = new MovieEntityType();
+            }
             return _instance;
-        }}
+        }
         
         private IEnumerable<IKey> keys;
         private IEnumerable<IKey> Keys
-        {{
+        {
             get
-            {{
+            {
                 if (keys==null)
-                {{
-                    keys = {Keys:keylist:\t\t\t\t\t};                    
-                }}
+                {
+                    keys = new List<IKey>
+					{
+					MovieMovieIdKey.GetInstance()
+					};                    
+                }
                 return keys;
-            }}
-        }}
+            }
+        }
         
         private IEnumerable<IIndex> indexes;
         private IEnumerable<IIndex> Indexes
-        {{
+        {
             get
-            {{
+            {
                 if (indexes==null)
-                {{
-                    indexes = {Indexes:indexlist:\t\t\t\t\t};                    
-                }}
+                {
+                    indexes = new List<IIndex>
+					{
+					};                    
+                }
                 return indexes;
-            }}
-        }}
+            }
+        }
                 
         private IEnumerable<IForeignKey> foreignKeys;
         private IEnumerable<IForeignKey> ForeignKeys
-        {{
+        {
             get
-            {{
+            {
                 if (foreignKeys==null)
-                {{
-                    foreignKeys={ForeignKeys:foreignkeylist:\t\t\t\t\t\t};
-                }}
+                {
+                    foreignKeys=new List<IForeignKey>
+						{
+						};
+                }
                 return foreignKeys;
-            }}
-        }}
+            }
+        }
         
         private IEnumerable<IAnnotation> annotations;
         private IEnumerable<IAnnotation> Annotations
-        {{
+        {
             get
-            {{
+            {
                 if (annotations==null)
-                {{
-                    annotations = {Annotations:annotationlist:\t\t\t\t\t};              
-                }}
+                {
+                    annotations = new List<IAnnotation>
+					{
+						new ConventionalAnnotation("ConstructorBinding",new DirectConstructorBinding(typeof(SampleContext.Entities.Movie).GetDeclaredConstructor(null),new List<ParameterBinding>()),ConfigurationSource.Convention),
+						new ConventionalAnnotation("Relational:TableName","Movies",ConfigurationSource.Convention),
+					};              
+                }
                 return annotations;
-            }}
-        }}
+            }
+        }
         
         public IAnnotation FindAnnotation(string name)
-        {{
+        {
             return Annotations.FirstOrDefault(p => p.Name == name);
-        }}
+        }
 
         public IEnumerable<IAnnotation> GetAnnotations()
-        {{
+        {
             return Annotations;
-        }}
+        }
 
         public object this[string name]
-        {{
-            get {{ return this.FindAnnotation(name)?.Value; }}
-        }}
+        {
+            get { return this.FindAnnotation(name)?.Value; }
+        }
 
         public IModel Model => CompiledModel.GetInstance();
 
-        public string Name=>"{EntityName}";
+        public string Name=>"SampleContext.Entities.Movie";
 
-        public Type ClrType=>typeof({EntityClassName});
+        public Type ClrType=>typeof(Movie);
 
         public IKey FindPrimaryKey()
-        {{
+        {
             return Keys.FirstOrDefault(p => p.IsPrimaryKey());
-        }}
+        }
 
         //TODO it is a readOnlyList Indexes list can be changed to SortedDictionary<IReadOnlyList<IProperty>, Index> as EntityType
         public IKey FindKey(IReadOnlyList<IProperty> properties)
-        {{
+        {
             var declaredKey = this.Keys.FirstOrDefault(index=>PropertyListComparer.Instance.Equals(index.Properties,properties));
             if (declaredKey != null)
                 return declaredKey;
             return this.BaseType?.FindKey(properties);
-        }}
+        }
 
         public IEnumerable<IKey> GetKeys()
-        {{
+        {
             return Keys;
-        }}
+        }
 
         public IForeignKey FindForeignKey(IReadOnlyList<IProperty> properties, IKey principalKey, IEntityType principalEntityType)
-        {{
+        {
             var declaredForeignKey = this.ForeignKeys.FirstOrDefault(fk =>
                 PropertyListComparer.Instance.Equals(fk.Properties, properties)&&
                 PropertyListComparer.Instance.Equals((IReadOnlyList<IProperty>) fk.PrincipalKey.Properties, principalKey.Properties)&&
@@ -125,80 +136,87 @@ namespace {Namespace}.{EntityClassName}Classes
             if (declaredForeignKey != null)
                 return declaredForeignKey;
             return this.BaseType?.FindForeignKey(properties, principalKey, principalEntityType);    
-        }}
+        }
 
         public IEnumerable<IForeignKey> GetForeignKeys()
-        {{
+        {
             return ForeignKeys;
-        }}
+        }
 
         //TODO it is a readOnlyList Indexes list can be changed to SortedDictionary<IReadOnlyList<IProperty>, Index> as EntityType
         public IIndex FindIndex(IReadOnlyList<IProperty> properties)
-        {{
+        {
             return this.Indexes.FirstOrDefault(index=>PropertyListComparer.Instance.Equals(index.Properties,properties));
-        }}
+        }
 
         public IEnumerable<IIndex> GetIndexes()
-        {{
+        {
             return Indexes;
-        }}
+        }
 
         public IProperty FindProperty(string name)
-        {{
+        {
             return GetProperties().FirstOrDefault(p => p.Name == name);
-        }}
+        }
         private IEnumerable<IProperty> properties;
         public IEnumerable<IProperty> GetProperties()
-        {{
+        {
             if (properties==null)
-            {{
-                properties = {Properties:propertylist:\t\t\t\t\t};
-            }}
+            {
+                properties = new List<IProperty>
+					{
+						MovieIdPropertyType.GetInstance(),
+						AveragePointsPropertyType.GetInstance(),
+						MovieNamePropertyType.GetInstance(),
+					};
+            }
             return properties;
-        }}
+        }
         private IEnumerable<IServiceProperty> serviceProperties;
         public IServiceProperty FindServiceProperty(string name)
-        {{
+        {
             return GetServiceProperties().FirstOrDefault(p=>p.Name == name);
-        }}
+        }
 
         public IEnumerable<IServiceProperty> GetServiceProperties()
-        {{
+        {
             if (serviceProperties==null)
-            {{
-                serviceProperties={ServiceProperties:serviceproperties:\t\t\t\t\t};
-            }}
+            {
+                serviceProperties=new List<IServiceProperty>
+					{
+					};
+            }
             return serviceProperties;
-        }}
+        }
 
-        public IEntityType BaseType => {BaseType};
-        public string DefiningNavigationName => {DefiningNavigationName};
-        public IEntityType DefiningEntityType => {DefiningEntityType};
+        public IEntityType BaseType => null;
+        public string DefiningNavigationName => null;
+        public IEntityType DefiningEntityType => null;
         
         private LambdaExpression queryFilter;
         public LambdaExpression QueryFilter
-        {{
-            get {{ 
+        {
+            get { 
                 if(queryFilter==null)
-                {{
-                    {QueryFilter:lambdaexpression:{EntityClassName}|queryFilter|\t\t\t\t\t}
-                }}                
+                {
+                    
+                }                
                 return queryFilter; 
-            }}
-        }}
+            }
+        }
         
         private LambdaExpression definingQuery;
         public LambdaExpression DefiningQuery
-        {{
+        {
             get 
-            {{ 
+            { 
                 if(definingQuery==null)
-                {{
-                    {QueryFilter:lambdaexpression:EntityClassName|definingQuery|\t\t\t\t\t}                
-                }}
+                {
+                                    
+                }
                 return definingQuery; 
-            }}
-        }}
-        public bool IsQueryType => {IsQueryType};
-    }}
-}}
+            }
+        }
+        public bool IsQueryType => false;
+    }
+}

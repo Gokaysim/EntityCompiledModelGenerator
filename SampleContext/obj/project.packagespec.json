@@ -30,6 +30,10 @@
           "target": "Package",
           "version": "[2.2.2, )"
         },
+        "Microsoft.EntityFrameworkCore.Sqlite": {
+          "target": "Package",
+          "version": "[2.2.1, )"
+        },
         "NETStandard.Library": {
           "suppressParent": "All",
           "target": "Package",
